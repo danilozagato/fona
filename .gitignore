@@ -2,3 +2,9 @@ dist
 build
 nbproject/private
 *.zip
+/.
+/build/
+/dist/
+/.idea/
+/fona.iml
+/out/

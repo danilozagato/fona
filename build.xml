@@ -61,7 +61,7 @@
         <target name="run" depends="fona-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
-            </exec>
+            </e xec>
         </target>
 
     Notice that the overridden target depends on the jar target and not only on 

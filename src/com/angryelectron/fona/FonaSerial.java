@@ -42,7 +42,7 @@ class FonaSerial implements SerialPortEventListener {
      * Default timeout value (in milliseconds) to wait for a response to a
      * command.
      */
-    private final Integer FONA_DEFAULT_TIMEOUT = 5000;
+    private final Integer FONA_DEFAULT_TIMEOUT = 10000;
 
     /**
      * This is a full list of 'unsolicited' responses according to section 9.1
